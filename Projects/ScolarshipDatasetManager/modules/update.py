@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("data/scholarship.csv")
+
 def update_scholarship(df):
     name = input("Enter name of sccholarship you want to update:")
     matches = df[df['Name'].str.contains(name, case=False, na=False)]
@@ -30,4 +30,4 @@ def update_scholarship(df):
         print("Invalid choice")
     print(df)
 
-update_scholarship(df)
+

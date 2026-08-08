@@ -1,0 +1,272 @@
+[
+    {
+        "Name":"Global Korea Scholarship (GKS)",
+        "Country":"South Korea",
+        "Degree":"Masters",
+        "Deadline":"2027-03-15",
+        "CGPA":3.0,
+        "FullyFunded":"Yes",
+        "Field":"Computer Science"
+    },
+    {
+        "Name":"Chevening Scholarship",
+        "Country":"United Kingdom",
+        "Degree":"Masters",
+        "Deadline":"2026-11-01",
+        "CGPA":3.2,
+        "FullyFunded":"Yes",
+        "Field":"Any"
+    },
+    {
+        "Name":"DAAD Scholarship",
+        "Country":"Germany",
+        "Degree":"Masters",
+        "Deadline":"2027-01-20",
+        "CGPA":3.0,
+        "FullyFunded":"Partial",
+        "Field":"Engineering"
+    },
+    {
+        "Name":"Erasmus Mundus",
+        "Country":"Europe",
+        "Degree":"Masters",
+        "Deadline":"2027-02-10",
+        "CGPA":2.8,
+        "FullyFunded":"Yes",
+        "Field":"Engineering"
+    },
+    {
+        "Name":"MEXT Scholarship",
+        "Country":"Japan",
+        "Degree":"Masters",
+        "Deadline":"2027-04-25",
+        "CGPA":3.0,
+        "FullyFunded":"Yes",
+        "Field":"Computer Science"
+    },
+    {
+        "Name":"Commonwealth Scholarship",
+        "Country":"United Kingdom",
+        "Degree":"Masters",
+        "Deadline":"2026-12-15",
+        "CGPA":3.2,
+        "FullyFunded":"Yes",
+        "Field":"Any"
+    },
+    {
+        "Name":"Fulbright Scholarship",
+        "Country":"USA",
+        "Degree":"Masters",
+        "Deadline":"2027-05-01",
+        "CGPA":3.3,
+        "FullyFunded":"Yes",
+        "Field":"Any"
+    },
+    {
+        "Name":"Turkiye Burslari",
+        "Country":"Turkey",
+        "Degree":"Masters",
+        "Deadline":"2027-02-28",
+        "CGPA":2.8,
+        "FullyFunded":"Yes",
+        "Field":"Computer Science"
+    },
+    {
+        "Name":"Chinese Government Scholarship",
+        "Country":"China",
+        "Degree":"Masters",
+        "Deadline":"2027-03-20",
+        "CGPA":2.7,
+        "FullyFunded":"Yes",
+        "Field":"Engineering"
+    },
+    {
+        "Name":"Swiss Government Excellence Scholarship",
+        "Country":"Switzerland",
+        "Degree":"Masters",
+        "Deadline":"2027-01-31",
+        "CGPA":3.4,
+        "FullyFunded":"Yes",
+        "Field":"Research"
+    },
+    {
+        "Name":"Australia Awards",
+        "Country":"Australia",
+        "Degree":"Masters",
+        "Deadline":"2027-04-10",
+        "CGPA":3.0,
+        "FullyFunded":"Yes",
+        "Field":"Any"
+    },
+    {
+        "Name":"Orange Knowledge Programme",
+        "Country":"Netherlands",
+        "Degree":"Masters",
+        "Deadline":"2027-02-05",
+        "CGPA":3.0,
+        "FullyFunded":"Partial",
+        "Field":"Management"
+    },
+    {
+        "Name":"VLIR-UOS Scholarship",
+        "Country":"Belgium",
+        "Degree":"Masters",
+        "Deadline":"2027-03-12",
+        "CGPA":2.9,
+        "FullyFunded":"Yes",
+        "Field":"Agriculture"
+    },
+    {
+        "Name":"ADB-Japan Scholarship",
+        "Country":"Japan",
+        "Degree":"Masters",
+        "Deadline":"2027-01-18",
+        "CGPA":3.2,
+        "FullyFunded":"Yes",
+        "Field":"Economics"
+    },
+    {
+        "Name":"Knight-Hennessy Scholars",
+        "Country":"USA",
+        "Degree":"Masters",
+        "Deadline":"2027-09-15",
+        "CGPA":3.5,
+        "FullyFunded":"Yes",
+        "Field":"Any"
+    },
+    {
+        "Name":"ETH Excellence Scholarship",
+        "Country":"Switzerland",
+        "Degree":"Masters",
+        "Deadline":"2027-12-15",
+        "CGPA":3.6,
+        "FullyFunded":"Partial",
+        "Field":"Engineering"
+    },
+    {
+        "Name":"Gates Cambridge Scholarship",
+        "Country":"United Kingdom",
+        "Degree":"Masters",
+        "Deadline":"2027-10-10",
+        "CGPA":3.5,
+        "FullyFunded":"Yes",
+        "Field":"Any"
+    },
+    {
+        "Name":"Rhodes Scholarship",
+        "Country":"United Kingdom",
+        "Degree":"Masters",
+        "Deadline":"2027-09-30",
+        "CGPA":3.7,
+        "FullyFunded":"Yes",
+        "Field":"Any"
+    },
+    {
+        "Name":"University of Melbourne Scholarship",
+        "Country":"Australia",
+        "Degree":"Masters",
+        "Deadline":"2027-05-20",
+        "CGPA":3.2,
+        "FullyFunded":"Partial",
+        "Field":"Computer Science"
+    },
+    {
+        "Name":"University of Toronto Scholarship",
+        "Country":"Canada",
+        "Degree":"Masters",
+        "Deadline":"2027-06-15",
+        "CGPA":3.3,
+        "FullyFunded":"Partial",
+        "Field":"Engineering"
+    },
+    {
+        "Name":"KAIST International Scholarship",
+        "Country":"South Korea",
+        "Degree":"Masters",
+        "Deadline":"2027-03-05",
+        "CGPA":3.1,
+        "FullyFunded":"Yes",
+        "Field":"Computer Science"
+    },
+    {
+        "Name":"Seoul National University Scholarship",
+        "Country":"South Korea",
+        "Degree":"Masters",
+        "Deadline":"2027-03-25",
+        "CGPA":3.2,
+        "FullyFunded":"Partial",
+        "Field":"Artificial Intelligence"
+    },
+    {
+        "Name":"McCall MacBain Scholarship",
+        "Country":"Canada",
+        "Degree":"Masters",
+        "Deadline":"2027-08-20",
+        "CGPA":3.4,
+        "FullyFunded":"Yes",
+        "Field":"Leadership"
+    },
+    {
+        "Name":"Singapore International Graduate Award",
+        "Country":"Singapore",
+        "Degree":"Masters",
+        "Deadline":"2027-01-15",
+        "CGPA":3.3,
+        "FullyFunded":"Yes",
+        "Field":"Computer Science"
+    },
+    {
+        "Name":"New Zealand Manaaki Scholarship",
+        "Country":"New Zealand",
+        "Degree":"Masters",
+        "Deadline":"2027-04-05",
+        "CGPA":3.0,
+        "FullyFunded":"Yes",
+        "Field":"Environmental Science"
+    },
+    {
+        "Name":"Italian Government Scholarship",
+        "Country":"Italy",
+        "Degree":"Masters",
+        "Deadline":"2027-05-18",
+        "CGPA":2.9,
+        "FullyFunded":"Partial",
+        "Field":"Architecture"
+    },
+    {
+        "Name":"Eiffel Excellence Scholarship",
+        "Country":"France",
+        "Degree":"Masters",
+        "Deadline":"2027-01-10",
+        "CGPA":3.3,
+        "FullyFunded":"Yes",
+        "Field":"Engineering"
+    },
+    {
+        "Name":"Government of Ireland Scholarship",
+        "Country":"Ireland",
+        "Degree":"Masters",
+        "Deadline":"2027-03-08",
+        "CGPA":3.2,
+        "FullyFunded":"Yes",
+        "Field":"Computer Science"
+    },
+    {
+        "Name":"Lester B. Pearson Scholarship",
+        "Country":"Canada",
+        "Degree":"Bachelors",
+        "Deadline":"2027-01-25",
+        "CGPA":3.6,
+        "FullyFunded":"Yes",
+        "Field":"Any"
+    },
+    {
+        "Name":"SBW Berlin Scholarship",
+        "Country":"Germany",
+        "Degree":"Masters",
+        "Deadline":"2027-02-14",
+        "CGPA":3.0,
+        "FullyFunded":"Partial",
+        "Field":"Social Sciences"
+    }
+]

@@ -1,7 +1,6 @@
 import pandas as pd
 
 
-
 def add_scholarships(df):
     print("\nAdd New Scholarship")
 

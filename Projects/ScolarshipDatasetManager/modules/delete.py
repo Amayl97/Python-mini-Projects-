@@ -1,6 +1,5 @@
 import pandas as pd
 
-df = pd.read_csv("data/scholarship.csv")
 
 def delete_scholarship(df):
     name = input("Enter scholarship name to delete: ")
@@ -19,4 +18,4 @@ def delete_scholarship(df):
     else:
         print("Deletion canceled!")
 
-delete_scholarship(df)
+

@@ -1,6 +1,5 @@
 import pandas as pd
 
-df = pd.read_csv("data/scholarship.csv")
 
 def filter_scholarships(df, column):
     value = input(f"Enter {column}: ")
@@ -48,4 +47,3 @@ def filter_menu(df):
     else:
         print("Invalid choice.")
 
-filter_menu(df)

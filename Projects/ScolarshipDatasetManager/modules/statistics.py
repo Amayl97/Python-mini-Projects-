@@ -21,4 +21,4 @@ def calculate_stats(df):
     print("\nScholarships by Country:")
     print(country_count)
 
-calculate_stats(df)    
+ 

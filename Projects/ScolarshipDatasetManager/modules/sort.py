@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("data/scholarship.csv")
+
 
 def sort_scholarships(df, column, ascending=True): 
   if column == "Deadline":
@@ -28,5 +28,5 @@ def sort_menu(df):
        print("Invalid choice")
 
 
-sort_menu(df);
+
 
