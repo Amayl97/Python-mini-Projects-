@@ -6,7 +6,7 @@ df = pd.read_csv("data/scholarship.csv")
 
 # search_menu(df)
 
-df = add_scholarships(df)
-df.to_csv("data/scholarship.csv", index=False)
+# df = add_scholarships(df)
+# df.to_csv("data/scholarship.csv", index=False)
 
-print(df)
+# print(df)
