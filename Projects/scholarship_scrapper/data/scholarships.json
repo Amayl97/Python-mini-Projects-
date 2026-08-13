@@ -1,0 +1,88 @@
+[
+    {
+        "title": "SNU President Fellowship Program (SPF)",
+        "university": "Seoul National University",
+        "country": "South Korea",
+        "source": "SNU",
+        "eligibility": [
+            "a faculty member of a major university in a developing country WITHOUT a Ph.D. degree",
+            "a newly admitted student to SNU as Ph.D. student (priority given to faculty members from major universities in developing countries in Asia, Africa, South America etc.)"
+        ],
+        "number_of_recipients": [
+            "Approximately 8 recipients each semester"
+        ],
+        "details": [
+            "Tuition fee: full tuition exemption for a maximum of 6 semesters",
+            "Living expenses: 1, 500,000 KRW ~ 2,000,000 KRW per month for 3~4 years",
+            "A round-trip airfare(economy class based on GTS system)",
+            "Korean language training (only evening class during regular semesters)",
+            "National Health Insurance fee reimbursement"
+        ],
+        "application_period": [
+            "During admission period for international students every semester"
+        ],
+        "selection_procedure": [
+            "Application for SPF scholarship made at the same time for online application for admission to SNU’s Office of Admissions(must check the ‘Application for Scholarship’ box) → Submission of application documents to SNU OGA (evidential documents regarding scholarship application that was done online) → SNU Admission Results → Interview → Decision noticed"
+        ],
+        "contact": [
+            "SNU staff in charge: 82-2-880-2519,intlscholarship@snu.ac.kr"
+        ]
+    },
+    {
+        "title": "Graduate Scholarship for Excellent Foreign Students (GSFS)",
+        "university": "Seoul National University",
+        "country": "South Korea",
+        "source": "SNU",
+        "number_of_recipients": [
+            "Approximately 20"
+        ],
+        "details": [
+            "Tuition fee: full tuition exemption for a maximum of 4 semesters",
+            "Living expenses: minimum of 500,000 KRW per month (different according to recipients’ majors)"
+        ],
+        "application_period": [
+            "During admission period for international students every semester"
+        ],
+        "selection_procedure": [
+            "Application for GSFS scholarship made at the same time for online application for admission to SNU’s Office of Admissions(must check the ‘Application for Scholarship’ box) → Selection made by respective Colleges/Schools based on the admission documents → Decision noticed"
+        ],
+        "contact": [
+            "SNU staff in charge: 82-2-880-2519,intlscholarship@snu.ac.kr"
+        ]
+    },
+    {
+        "title": "Overseas Koreans Scholarship",
+        "university": "Seoul National University",
+        "country": "South Korea",
+        "source": "SNU",
+        "application_period": [
+            "February or March (Once per year, Recruitment period is about one month)"
+        ],
+        "selection_procedure": [
+            "Applicants submit applications (apply online and print) and other documents to Korean embassies in their countries → The embassies make the first selection → The Overseas Koreans Foundation make the second selection"
+        ],
+        "contact": [
+            "SNU staff in charge: 82-2-880-2519,intlscholarship@snu.ac.kr",
+            "Overseas Koreans Foundation: 82-64-786-0274,scholarship@okf.or.kr"
+        ]
+    },
+    {
+        "title": "Korean Government Scholarship Program (KGSP/GKS)",
+        "university": "Seoul National University",
+        "country": "South Korea",
+        "source": "SNU",
+        "number_of_recipients": [
+            "Approximately 40~60 every year"
+        ],
+        "application_period": [
+            "February"
+        ],
+        "selection_procedure": [
+            "University Recommendation Program: Applicants submit applications to SNU’s Office of Admission → The National Institute for International Education make the selection",
+            "Embassy Recommendation Program: Applications submit applications to Korean Embassies in their countries → The National Institute for International Education make the selection"
+        ],
+        "contact": [
+            "SNU staff in charge:82-2-880-6971,snuadmit2@snu.ac.kr"
+        ]
+    }
+]

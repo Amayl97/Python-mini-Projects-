@@ -1,35 +1,72 @@
 import requests
 from bs4 import BeautifulSoup
 
+
+URL = "https://en.snu.ac.kr/admission/graduate/scholarships/before_application"
+
+
 def scrape_snu():
-    url = "https://en.snu.ac.kr/admission/graduate/scholarships/before_application"
 
-    response = requests.get(url)
+    response = requests.get(URL)
+
     soup = BeautifulSoup(response.text, "html.parser")
-    
-    # headings = soup.find_all(["h1", "h2", "h3","h4"])
-    # for heading in headings:
-    #     print(heading.get_text(strip=True))
 
-    # This get the text when we don't know the tag
-    # scholarship = soup.find(string=lambda text: "SNU President Fellowship Program (SPF)" in text)
-    # print(scholarship)
-    #This gives us the tag and structure of the text
-    # print(scholarship.parent)
-    # Now extract al the headings of scholarships
-    # scholarships = soup.find_all("h2", class_="common-contitle")
-    # for scholarship in scholarships:
-    #     print(scholarship.get_text(strip=True))
+    scholarships = []
 
-    #prettify prints html in a readable formate
-    scholarship = soup.find("h2", class_="common-contitle")
-    print(scholarship.parent.prettify())
+    scholarship_titles = soup.find_all(
+        "h2",
+        class_="common-contitle"
+    )
 
-    #Now we have to find the details of scholarships
-    sections = scholarship.parent.find_all("div", class_="text-content")
-    for section in sections:
-      title = section.find("p", class_="title")
-      values = section.find("p", class_="dot-list")
-      print("\n" + title.get_text(strip=True))
-      for value in values:
-          print("-", value.get_text(strip=True))
+    key_mapping = {
+        "Eligibility  (must be BOTH)": "eligibility",
+        "Number of Recipients": "number_of_recipients",
+        "Details": "details",
+        "Application Period": "application_period",
+        "Selection Procedure": "selection_procedure",
+        "Contact": "contact"
+    }
+
+    for scholarship in scholarship_titles:
+
+        scholarship_data = {
+            "title": scholarship.get_text(strip=True),
+            "university": "Seoul National University",
+            "country": "South Korea",
+            "source": "SNU"
+        }
+
+        container = scholarship.parent
+
+        sections = container.find_all(
+            "div",
+            class_="text-content"
+        )
+
+        for section in sections:
+
+            title = section.find(
+                "p",
+                class_="title"
+            )
+
+            values = section.find_all(
+                "p",
+                class_="dot-list"
+            )
+
+            section_title = title.get_text(strip=True)
+
+            section_values = [
+                value.get_text(strip=True)
+                for value in values
+            ]
+
+            key = key_mapping.get(section_title)
+
+            if key:
+                scholarship_data[key] = section_values
+
+        scholarships.append(scholarship_data)
+
+    return scholarships
