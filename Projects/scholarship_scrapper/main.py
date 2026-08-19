@@ -14,5 +14,5 @@ import pandas as pd
 # df.to_csv("Data/scholarships.csv", index=False)
 
 scholarship_gks = scrape_GKS()
-with open("data/scholarship_gks.html", "w", encoding="utf-8") as file:
-    file.write(scholarship_gks)
+with open("data/scholarship_gks.json", "w", encoding="utf-8") as file:
+    json.dump(scholarship_gks, file, indent=4, ensure_ascii=False)
