@@ -11,6 +11,7 @@ I want to pursue my Master's at Oxford Univeristy.
 """
 # doc is variable storing processed text. And we are passing text to nlp which will pass the text from spacy pipleine for the processing.
 doc = nlp(text)
+
 # For tokens
 print("\nTokens:")
 for token in doc:
