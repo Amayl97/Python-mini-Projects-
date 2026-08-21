@@ -20,11 +20,17 @@ print(title)
 
 headings = soup.find_all("h3")
 
-for heading in headings:
-    print(heading.text)
+wanted_headings = [
+    "Host Country:",
+    "Course Level:",
+    "GKS Scholarship Duration:",
+    "Benefits of the Korean Government Scholarship 2026:",
+    "Eligibility Criteria of Global Korea Scholarship 2026 in South Korea:"
+]
 
-    ul = heading.find_next("ul")
-    print(ul)
-    for li in ul.find_all("li"):
-        print(li.text)
-     
+for heading in soup.find_all("h3"):
+    if heading.get_text(strip=True) in wanted_headings:
+        print(heading.get_text(strip=True))
+        ul = heading.find_next("ul")
+        for li in ul:
+            print(li.get_text(strip=True))
