@@ -10,6 +10,7 @@ for token in doc:
     print(token.text, "->", token.lemma_)
 
 #Store them in a list
+#This syntax is called list comprehension
 filtered = [
     token.lemma_
     for token in doc
